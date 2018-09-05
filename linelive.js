@@ -111,5 +111,6 @@ let liveCheck = () => {
 	lastTime = nowTime;
 }
 
-
+let lastTime;
+let time = document.getElementsByClassName('timeBox')[0];
 checkComment('LINE LIVEのコメント取得を開始しました。', '', 1);
